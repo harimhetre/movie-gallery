@@ -49,12 +49,12 @@ export default function App() {
               alt="back"
               style={{
                 width: "1rem",
-                marginTop: "0.4rem",
+                marginTop: "0.2rem",
                 marginRight: "0.3rem",
               }}
             ></img>
           </span>
-          <span style={{ fontSize: "1.2rem" }}>Romantic Comedy</span>
+          <span style={{ fontSize: "1rem" }}>Romantic Comedy</span>
         </div>
         <div style={{ display: "flex", justifyContent: "flex-end" }}>
           {!showSearchInput && (
