@@ -45,7 +45,7 @@ export default function App() {
         <div style={{ display: "flex" }}>
           <span>
             <img
-              src="./Slices/Back.png"
+              src="movie-gallery/Slices/Back.png"
               alt="back"
               style={{
                 width: "1rem",
@@ -59,7 +59,7 @@ export default function App() {
         <div style={{ display: "flex", justifyContent: "flex-end" }}>
           {!showSearchInput && (
             <img
-              src="./Slices/search.png"
+              src="movie-gallery/Slices/search.png"
               alt="search"
               style={{ width: "1.5rem", height: "1.5rem" }}
               onClick={() => setShowSearchInput(true)}
