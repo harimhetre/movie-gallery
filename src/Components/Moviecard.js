@@ -8,7 +8,7 @@ const Moviecard = ({ movieName, poster }) => {
         style={{ paddingTop: "2.25rem" }}
       >
         <img
-          src={`movie-gallery/Slices/${poster}`}
+          src={`/movie-gallery/Slices/${poster}`}
           width="100%"
           height="100%"
           id="moviePoster"
