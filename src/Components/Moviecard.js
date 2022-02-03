@@ -1,10 +1,6 @@
 import React from "react";
 
 const Moviecard = ({ movieName, poster }) => {
-  const missingPoster = () => {
-    var im = document.getElementById("moviePoster");
-    im.src = "/Slices/placeholder_for_missing_posters.png";
-  };
   return (
     <>
       <div
@@ -13,7 +9,6 @@ const Moviecard = ({ movieName, poster }) => {
       >
         <img
           src={`/Slices/${poster}`}
-          onError={missingPoster}
           width="100%"
           height="100%"
           id="moviePoster"
